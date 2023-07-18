@@ -12,6 +12,64 @@
   --white: #fff;
   --dairy: #fcfcfc;
 }
+/* Додаємо "Паттерн для приховання заголовків": властивості для класу .visually-hidden */
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+/* Обнулення маржінів у заголовков та параграфів */
+/* h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+} */
+
+/* Обнулення маржін і лівий паддінг в списках ul */
+/* ul {
+  margin: 0;
+  padding-left: 0;
+} */
+
+.content {
+  background-color:#fff444;
+}
+
+.title-list-tablet {
+max-width: 360px;
+  padding-left: 0;
+  padding-right: 0;
+  margin-left: 0;
+  margin-right: 768px;
+  margin-top: 112px;
+  margin-bottom: 0;
+}
+
+.title-list-phone {
+  max-width: 360px;
+  padding-left: 0;
+  padding-right: 0;
+  margin-left: 384px;
+  margin-right: 384px;
+  margin-top: 112px;
+  margin-bottom: 0;
+}
+
+.title-list-laptop {
+  max-width: 360px;
+  padding-left: 0;
+  padding-right: 0;
+  margin-left: 768px;
+  margin-right: 0;
+  margin-top: 112px;
+  margin-bottom: 0;  
+}
 
 body {
   font-family: 'Roboto', sans-serif;
