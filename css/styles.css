@@ -489,7 +489,7 @@ img {
 .btn-text:focus {
   color: var(--white);
   background-color: var(--ocean);
-  border: 1px solid var(--cornflower);
+  border: 1px solid transparent;
 }
 
 .list-portfolio {
