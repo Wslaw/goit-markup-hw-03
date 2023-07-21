@@ -351,7 +351,7 @@ img {
 .skills .title {
   margin-bottom: 72px;
   text-align: center;
-  width: calc((100% - 48px) / 3);
+  /* width: calc((100% - 48px) / 3); */
 }
 
 .skills-list {
@@ -487,7 +487,6 @@ img {
 }
 
 .btn-text:hover,
-.btn-text:active,
 .btn-text:focus {
   color: var(--white);
   background-color: var(--ocean);
