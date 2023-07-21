@@ -18,52 +18,65 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <header>
+    <!--| ---------------------------------- |-->
+    <!--|              Header                |-->
+    <!--| ---------------------------------- |-->
+    <header class="header">
       <div class="container">
+        <!--Navigation menu-->
+
         <nav class="nav-page">
           <a href="./index.html" class="logo-web link"
             >Web<span class="logo-studio link">Studio</span>
           </a>
-          <ul class="list">
-            <li><a class="link item" href="./index.html">Studio</a></li>
+          <ul class="list list-header">
+            <li>
+              <a class="link item" href="./index.html">Studio</a>
+            </li>
             <li>
               <a class="link item" href="./portfolio.html">Portfolio</a>
             </li>
-            <li><a class="link item" href="">Contacts</a></li>
+            <li>
+              <a class="link item" href="">Contacts</a>
+            </li>
           </ul>
         </nav>
+        <!-- Contacts -->
         <address class="address">
-          <ul class="list">
+          <ul class="list list-address">
             <li>
               <a
                 class="link contacts"
                 href="mailto:info@devstudio.com"
                 target="_blank"
-                >info@devstudio.com</a
-              >
+                >info@devstudio.com
+              </a>
             </li>
             <li>
               <a class="link contacts" href="tel:+110001111111" target="_blank"
-                >+11 (000) 111-11-11</a
-              >
+                >+11 (000) 111-11-11
+              </a>
             </li>
           </ul>
         </address>
       </div>
     </header>
+    <!-- -------------------------------------------------- -->
+    <!--                      Main                          -->
+    <!-- -------------------------------------------------- -->
     <main>
-      <section>
+      <section class="portfolio">
         <div class="container">
           <h1 class="visually-hidden">Portfolio</h1>
-          <ul class="list">
+          <ul class="list btn-list">
             <li><button class="btn-text" type="button">All</button></li>
             <li><button class="btn-text" type="button">Web Site</button></li>
             <li><button class="btn-text" type="button">App</button></li>
             <li><button class="btn-text" type="button">Design</button></li>
             <li><button class="btn-text" type="button">Marketing</button></li>
           </ul>
-          <ul class="list">
-            <li>
+          <ul class="list list-portfolio">
+            <li class="item-portfolio">
               <a class="link" href=""
                 ><img
                   src="./images/Banking-App-Interface-Concept-.jpg"
@@ -71,11 +84,13 @@
                   width="360"
                   height="300"
                 />
-                <h2 class="title-portfolio">Banking App Interface Concept</h2>
-                <p class="subtitle-portfolio">App</p></a
-              >
+                <div class="box-portfolio">
+                  <h2 class="title-portfolio">Banking App Interface Concept</h2>
+                  <p class="subtitle-portfolio">App</p>
+                </div>
+              </a>
             </li>
-            <li>
+            <li class="item-portfolio">
               <a class="link" href=""
                 ><img
                   src="./images/Cashless-Payment.jpg"
@@ -83,11 +98,13 @@
                   width="360"
                   height="300"
                 />
-                <h2 class="title-portfolio">Cashless Payment</h2>
-                <p class="subtitle-portfolio">Marketing</p></a
-              >
+                <div class="box-portfolio">
+                  <h2 class="title-portfolio">Cashless Payment</h2>
+                  <p class="subtitle-portfolio">Marketing</p>
+                </div>
+              </a>
             </li>
-            <li>
+            <li class="item-portfolio">
               <a class="link" href=""
                 ><img
                   src="./images/Meditation-App.jpg"
@@ -95,11 +112,13 @@
                   width="360"
                   height="300"
                 />
-                <h2 class="title-portfolio">Meditation App</h2>
-                <p class="subtitle-portfolio">App</p></a
-              >
+                <div class="box-portfolio">
+                  <h2 class="title-portfolio">Meditation App</h2>
+                  <p class="subtitle-portfolio">App</p>
+                </div>
+              </a>
             </li>
-            <li>
+            <li class="item-portfolio">
               <a class="link" href=""
                 ><img
                   src="./images/Taxi-Service.jpg"
@@ -107,11 +126,13 @@
                   width="360"
                   height="300"
                 />
-                <h2 class="title-portfolio">Taxi Service</h2>
-                <p class="subtitle-portfolio">Marketing</p></a
-              >
+                <div class="box-portfolio">
+                  <h2 class="title-portfolio">Taxi Service</h2>
+                  <p class="subtitle-portfolio">Marketing</p>
+                </div>
+              </a>
             </li>
-            <li>
+            <li class="item-portfolio">
               <a class="link" href=""
                 ><img
                   src="./images/Screen-Illustrations.jpg"
@@ -119,11 +140,13 @@
                   width="360"
                   height="300"
                 />
-                <h2 class="title-portfolio">Screen Illustrations</h2>
-                <p class="subtitle-portfolio">Design</p></a
-              >
+                <div class="box-portfolio">
+                  <h2 class="title-portfolio">Screen Illustrations</h2>
+                  <p class="subtitle-portfolio">Design</p>
+                </div>
+              </a>
             </li>
-            <li>
+            <li class="item-portfolio">
               <a class="link" href=""
                 ><img
                   src="./images/Online-Courses.jpg"
@@ -131,11 +154,13 @@
                   width="360"
                   height="300"
                 />
-                <h2 class="title-portfolio">Online Courses</h2>
-                <p class="subtitle-portfolio">Marketing</p></a
-              >
+                <div class="box-portfolio">
+                  <h2 class="title-portfolio">Online Courses</h2>
+                  <p class="subtitle-portfolio">Marketing</p>
+                </div>
+              </a>
             </li>
-            <li>
+            <li class="item-portfolio">
               <a class="link" href=""
                 ><img
                   src="./images/Instagram-Stories-Concept.jpg"
@@ -143,11 +168,13 @@
                   width="360"
                   height="300"
                 />
-                <h2 class="title-portfolio">Instagram Stories Concept</h2>
-                <p class="subtitle-portfolio">Design</p></a
-              >
+                <div class="box-portfolio">
+                  <h2 class="title-portfolio">Instagram Stories Concept</h2>
+                  <p class="subtitle-portfolio">Design</p>
+                </div>
+              </a>
             </li>
-            <li>
+            <li class="item-portfolio">
               <a class="link" href=""
                 ><img
                   src="./images/Organic-Food.jpg"
@@ -155,11 +182,13 @@
                   width="360"
                   height="300"
                 />
-                <h2 class="title-portfolio">Organic Food</h2>
-                <p class="subtitle-portfolio">Web Site</p></a
-              >
+                <div class="box-portfolio">
+                  <h2 class="title-portfolio">Organic Food</h2>
+                  <p class="subtitle-portfolio">Web Site</p>
+                </div>
+              </a>
             </li>
-            <li>
+            <li class="item-portfolio">
               <a class="link" href=""
                 ><img
                   src="./images/Fresh-Coffee.jpg"
@@ -167,14 +196,20 @@
                   width="360"
                   height="300"
                 />
-                <h2 class="title-portfolio">Fresh Coffee</h2>
-                <p class="subtitle-portfolio">Web Site</p></a
+                <div class="box-portfolio">
+                  <h2 class="title-portfolio">Fresh Coffee</h2>
+                <p class="subtitle-portfolio">Web Site</p>
+                </div>
+                </a
               >
             </li>
           </ul>
         </div>
       </section>
     </main>
+    <!-- ------------------------------------------------- -->
+    <!--                   Footer                          -->
+    <!-- ------------------------------------------------- -->
     <footer class="footer">
       <div class="container">
         <a href="./index.html" class="logo-web link"
