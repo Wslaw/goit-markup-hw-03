@@ -12,6 +12,50 @@
   --white: #fff;
   --dairy: #fcfcfc;
 }
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--slate);
+  background-color: var(--white);
+}
+
+.list {
+  list-style-type: none;
+}
+
+/* ----------------------------*/
+/* |         RESET   ON      | */
+/* ----------------------------*/
+/* Обнулення маржінів у заголовков та параграфів  */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+/* Обнулення маржін і лівий паддінг в списках ul */
+ul {
+  padding-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+img {
+  display: block;
+  max-width: 100%;
+}
+/* --Зроби зображення блочними елементами*/
+/*----------------------------------  */
+/*             RESET END              */
+/* ---------------------------------  */
+
 /* Додаємо "Паттерн для приховання заголовків": властивості для класу .visually-hidden */
 .visually-hidden {
   position: absolute;
@@ -26,27 +70,94 @@
   overflow: hidden;
 }
 
-/* Обнулення маржінів у заголовков та параграфів */
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p {
-  margin: 0;
+/* --------------------------------------- */
+/*              Components styles          */
+/* --------------------------------------- */
+
+/* --Визнач ширину та падінги для контейнера
+                   та пропиши їх у CSS-файлі: */
+.container {
+  
+  width: 100%;
+  max-width: 1158px;
+  /* 1128 в макеті + 2х15рх */
+  padding-left: 15px;
+  padding-right: 15px;
+  /* задаємо центрування */
+  margin: 0 auto;
+  /* Підсвічуємо контейнери */
+  outline: 2px solid #31d0aa;
 }
 
-/* Обнулення маржін і лівий паддінг в списках ul */
-ul {
-  margin: 0;
-  padding-left: 0;
+/* ------------------------------------------ */
+/*         Header                         */
+/* ------------------------------------------ */
+
+.header {
+  padding-top: 24px;
+  padding-bottom: 24px;
+  justify-content: space-between;
+  align-items: center;
+  gap: 332;
+  margin: 0 auto;
+  
 }
 
-.content {
-  max-width: 1128px;
-  /* background-color: #fff444; */
+/* ----------------------------------------- */
+/*               Hero                        */
+/* ----------------------------------------- */
+
+.hero .container {
+  width: 1440px;
+  height: 600px;
+  flex-shrink: 0;
+  flex-direction: column;
 }
+
+.hero-title {
+  display: flex;
+  width: 496px;
+  height: 120px;
+  /* margin-bottom: 48px;
+  margin-left: 452px;
+  margin-right: 452px; */
+}
+
+.hero-btn {
+ 
+  display: inline-flex;
+  padding: 16px 32px;
+  align-items: flex-start;
+  /* gap: 10px; */
+  /* margin-left: 636px;
+  margin-right: 635px;
+  margin-bottom: 188px; */
+
+}
+
+
+.features {
+  display: flex;
+  width: 1128px;
+height: 104px;
+flex-shrink: 0;
+margin-top: 120px;
+flex-direction: row;
+align-items: flex-start;
+gap: 24px;
+}
+
+
+.features-item {
+  display: flex;
+width: 264px;
+flex-direction: column;
+align-items: flex-start;
+gap: 8px;
+}
+
+/* -------------------endless----------------- */
+
 
 .title-list-tablet {
   max-width: 360px;
@@ -78,18 +189,6 @@ ul {
   margin-bottom: 0;
 }
 
-body {
-  font-family: 'Roboto', sans-serif;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: var(--slate);
-  background-color: var(--white);
-}
-
-.list {
-  list-style: none;
-}
 /* .list.link {
   color: var(--navyblue);
 } */
@@ -194,6 +293,9 @@ body {
   line-height: 24px; /* 150% */
   letter-spacing: 0.64px;
   background: var(--iris);
+
+  border-radius: 4px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 /* hover */
 .hero-btn:hover,
