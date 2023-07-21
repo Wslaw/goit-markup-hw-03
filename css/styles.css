@@ -345,7 +345,6 @@ img {
 /* ------------------------------------------------------------------- */
 .skills {
   padding-bottom: 120px;
-  
 }
 
 .skills .title {
@@ -354,7 +353,7 @@ img {
   /* width: calc((100% - 48px) / 3); */
 }
 
-.skills-list {
+.skillslist {
   display: flex;
   flex-wrap: wrap;
   gap: 24px;
