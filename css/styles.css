@@ -361,7 +361,7 @@ img {
 
 .skills .list {
   display: flex;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
   gap: 24px;
   margin: 72px auto 0;
   padding: 0;
