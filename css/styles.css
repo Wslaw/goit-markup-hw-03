@@ -26,7 +26,6 @@ body {
   flex-direction: column;
 }
 
-
 /* ----------------------------*/
 /* |         RESET   ON      | */
 /* ----------------------------*/
@@ -39,7 +38,6 @@ ul {
   padding-left: 0;
   display: flex;
 }
-
 
 /* Обнулення маржінів у заголовков та параграфів  */
 h1,
@@ -353,13 +351,12 @@ img {
 /* ------------------------------------------------------------------- */
 .skills {
   padding-bottom: 120px;
-  width: calc((100% - 48px) / 3);
 }
 
 .skills .title {
   margin-bottom: 72px;
   text-align: center;
-  
+  width: calc((100% - 48px) / 3);
 }
 
 .skills .list {
@@ -575,4 +572,3 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-
