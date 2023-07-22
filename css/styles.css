@@ -353,12 +353,13 @@ img {
 /* ------------------------------------------------------------------- */
 .skills {
   padding-bottom: 120px;
+  width: calc((100% - 48px) / 3);
 }
 
 .skills .title {
   margin-bottom: 72px;
   text-align: center;
-  /* width: calc((100% - 48px) / 3); */
+  
 }
 
 .skills .list {
@@ -575,42 +576,3 @@ img {
   letter-spacing: 0.02em;
 }
 
-.title-list-tablet {
-  /* border: 1px solid var(--cornflower, #e7e9fc); */
-  /* background: url(<path-to-image>),
-    lightgray -72.845px -19px / 144.444% 112.667% no-repeat; */
-
-  /* max-width: 360px;
-  padding-left: 0;
-  padding-right: 0;
-  margin-left: 0;
-  margin-right: 768px;
-  margin-top: 112px;
-  margin-bottom: 0; */
-}
-
-.title-list-phone {
-  /* border: 1px solid var(--cornflower, #E7E9FC); */
-  /* background: url(<path-to-image>), lightgray 50% / cover no-repeat; */
-
-  /* max-width: 360px;
-  padding-left: 0;
-  padding-right: 0;
-  margin-left: 384px;
-  margin-right: 384px;
-  margin-top: 112px;
-  margin-bottom: 0; */
-}
-
-.title-list-laptop {
-  /* border: 1px solid var(--cornflower, #E7E9FC); */
-  /* background: url(<path-to-image>), lightgray 50% / cover no-repeat; */
-
-  /* max-width: 360px;
-  padding-left: 0;
-  padding-right: 0;
-  margin-left: 768px;
-  margin-right: 0;
-  margin-top: 112px;
-  margin-bottom: 0; */
-}
