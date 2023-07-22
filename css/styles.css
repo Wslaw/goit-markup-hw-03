@@ -58,6 +58,7 @@ p {
 img {
   display: block;
   max-width: 100%;
+  height: auto;
   object-fit: cover;
 }
 /* --Зроби зображення блочними елементами*/
@@ -357,6 +358,10 @@ background: var(--ocean);
 .skills .title {
   margin-bottom: 72px;
   text-align: center;
+  /* width: calc((100% - 48px) / 3); */
+}
+
+.skill {
   width: calc((100% - 48px) / 3);
 }
 
