@@ -13,19 +13,6 @@
   --dairy: #fcfcfc;
 }
 
-body {
-  font-family: "Roboto", sans-serif;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: var(--slate);
-  background-color: var(--white);
-
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-}
-
 /* ----------------------------*/
 /* |         RESET   ON      | */
 /* ----------------------------*/
@@ -48,13 +35,17 @@ p {
   margin-bottom: 0;
 }
 
+
+
 .list {
   list-style-type: none;
   margin-top: 0;
   margin-bottom: 0;
   padding-left: 0;
 }
-
+/*-------Зроби з картинок блоковий елемент + гумовий + автоподстройка висоти +
+         указывает содержимому заполнять контейнер object-fit: cover;
+         он будет отрезать стороны изображения, сохранение соотношения сторон */
 img {
   display: block;
   max-width: 100%;
@@ -86,6 +77,21 @@ img {
 
 /* --Визнач ширину та падінги для контейнера
                    та пропиши їх у CSS-файлі: */
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--slate);
+  background-color: var(--white);
+
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+
 .container {
   width: 100%;
   max-width: 1158px;
@@ -276,7 +282,7 @@ img {
 .hero-btn:hover,
 .hero-btn:focus {
   color: var(--white);
-background: var(--ocean);
+  background: var(--ocean);
 
   /* Button Text */
   /* font-family: inherit;
@@ -285,7 +291,6 @@ background: var(--ocean);
   font-weight: 500;
   line-height: 24px; 
   letter-spacing: 0.64px; */
-  
 }
 
 .hero-feature {
@@ -367,7 +372,7 @@ background: var(--ocean);
 
 .skills .list {
   display: flex;
-  /* flex-wrap: wrap; */
+  flex-wrap: wrap;
   gap: 24px;
   margin: 72px auto 0;
   padding: 0;
