@@ -257,7 +257,7 @@ img {
   font-style: normal;
   font-weight: 500;
   line-height: 1.5; /* 150% */
-  letter-spacing: 0.64px;
+  letter-spacing: 0.04em;
   background: var(--iris);
 
   border-radius: 4px;
@@ -275,15 +275,16 @@ img {
 .hero-btn:hover,
 .hero-btn:focus {
   color: var(--white);
+background: var(--ocean);
 
   /* Button Text */
-  font-family: inherit;
+  /* font-family: inherit;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
-  line-height: 24px; /* 150% */
-  letter-spacing: 0.64px;
-  background: var(--ocean);
+  line-height: 24px; 
+  letter-spacing: 0.64px; */
+  
 }
 
 .hero-feature {
