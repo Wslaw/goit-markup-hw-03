@@ -35,8 +35,6 @@ p {
   margin-bottom: 0;
 }
 
-
-
 .list {
   list-style-type: none;
   margin-top: 0;
@@ -75,9 +73,6 @@ img {
 /*              Components styles          */
 /* --------------------------------------- */
 
-/* --Визнач ширину та падінги для контейнера
-                   та пропиши їх у CSS-файлі: */
-
 body {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
@@ -89,15 +84,18 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  box-sizing: border-box;
+  /* box-sizing: border-box; */
 }
 
+/* --Визнач ширину та падінги для контейнера
+                   та пропиши їх у CSS-файлі: */
 .container {
   width: 100%;
   max-width: 1158px;
   /* 1128 в макеті + 2х15рх */
-  padding-left: 15px;
-  padding-right: 15px;
+  padding: 0 15px;
+  /* padding-left: 15px;
+  padding-right: 15px; */
   /* задаємо центрування */
   margin: 0 auto;
   /* Підсвічуємо контейнери */
